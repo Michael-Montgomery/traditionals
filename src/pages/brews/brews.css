@@ -12,11 +12,37 @@
 
 #drinks-filters-list button {
     font-size: 1.2em;
+    display: none;
 }
 
 #filters-wrapper ul, #filters-wrapper p {
     display: inline;
-    font-size: 1.2em;
+    font-size: 1.6em;
+}
+
+input[type='checkbox'] {
+    width:20px;
+    height:20px
+}
+
+input[type='checkbox']:checked {
+    background: var(--primary);
+}
+
+#filters-wrapper select {
+    font-size: 1.5em;
+    margin: 0 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#item-count {
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline;
 }
 
 #beer-list div {

@@ -56,6 +56,14 @@ const drinks = [
         abv: 4.5
     },
     {
+        name: 'Beringer Bros. NA Cab',
+        bottle: true,
+        draft: false,
+        type: 'wine',
+        color: 'red',
+        containsAlcohol: false
+    },
+    {
         name: 'Ca Montebello Moscato',
         bottle: true,
         draft: true,
