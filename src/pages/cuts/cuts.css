@@ -1,0 +1,8 @@
+#cuts-video-wrapper {
+    /* height: 90vh; */
+    width: 100vw;
+    height: 90vh;
+    background-image: url('https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg');
+    background-size: cover;
+    filter: grayscale(80%);
+}

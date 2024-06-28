@@ -1,0 +1,9 @@
+#carousel-wrapper {
+    margin-top: 0;
+    background-image: url('https://images.pexels.com/photos/3998414/pexels-photo-3998414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 100vw;
+    height: calc(70vh - 70px);
+    background-size: cover;
+    background-attachment: fixed;
+}
+

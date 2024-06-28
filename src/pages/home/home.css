@@ -1,0 +1,322 @@
+#home-wrapper {
+    /* background-color: var(--primary); */
+    background-image: linear-gradient(to bottom right, var(--primary), #FA6F19);
+    height: 100vh;
+    width: 100vw;
+}
+
+#home-nav-wrapper {
+    float: left;
+    width: 200px;
+}
+
+#home-nav-wrapper ul {
+    list-style-type: none;
+}
+
+#home-nav-wrapper ul li {
+    margin-bottom: 35px;
+}
+
+#home-nav-wrapper ul li div {
+    height: 125px;
+    width: 125px;
+    background-color: var(--gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .6s;
+}
+
+.menu-div:hover {
+    transform: rotate(-45deg);
+    -webkit-box-shadow: 0px 0px 42px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 42px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 42px -2px rgba(0, 0, 0, 0.75);
+}
+
+#home-nav-wrapper ul li div:hover #home-nav-wrapper ul li div p {
+    /* transform: rotate(45deg); */
+    display: none;
+
+}
+
+#home-nav-wrapper ul li div a {
+    color: var(--primary);
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+
+
+
+#home-wrapper h2 {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    float: left;
+    font-size: 2em;
+    line-height: 10px;
+    color: var(--gold);
+    transform: rotate(-10deg);
+}
+
+#cuts-div {
+    height: 150px;
+    width: 150px;
+    background-color: var(--gold);
+    transform: rotate(45deg);
+    /* display: inline-block; */
+}
+
+#cuts-div p {
+    transform: rotate(-45deg);
+    color: var(--primary);
+    font-size: 2em;
+    text-align: center;
+}
+
+#cuts-div-picture-wrapper {
+    height: 10%;
+    width: 10%;
+    background-image: url('https://images.pexels.com/photos/1319461/pexels-photo-1319461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+#kodak-wrapper {
+    width: 450px;
+    height: 400px;
+    background-color: #faf0e6;
+    padding-top: 25px;
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 120px;
+    transform: rotate(-8deg);
+    -webkit-box-shadow: 10px 18px 34px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 18px 34px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 18px 34px -11px rgba(0, 0, 0, 0.75);
+}
+
+#kodak-wrapper-two {
+    width: 450px;
+    height: 400px;
+    background-color: #faf0e6;
+    padding-top: 25px;
+    display: inline-block;
+    transform: rotate(10deg);
+    -webkit-box-shadow: 10px 18px 34px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 18px 34px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 18px 34px -11px rgba(0, 0, 0, 0.75);
+}
+
+#kodak-picture-wrapper {
+    width: 90%;
+    height: 65%;
+    /* background-color: black; */
+    margin: 0 auto;
+    background-image: url('https://cdn.concreteplayground.com/content/uploads/2019/09/Henry-Lee-Barbershop-collingwood-credit-Simon-Shiff-01-1024x576.jpg');
+    background-size: cover;
+    -webkit-box-shadow: inset 0px 0px 28px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 28px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 28px -8px rgba(0, 0, 0, 0.75);
+    filter: grayscale(80%);
+    transition: all .5s;
+}
+
+#kodak-picture-wrapper-two {
+    width: 90%;
+    height: 70%;
+    /* background-color: black; */
+    margin: 0 auto;
+    background-image: url('https://images.pexels.com/photos/5713745/pexels-photo-5713745.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    -webkit-box-shadow: inset 0px 0px 28px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 28px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 28px -8px rgba(0, 0, 0, 0.75);
+    filter: grayscale(80%);
+    transition: all .5s;
+}
+
+#kodak-caption {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+    color: var(--primary);
+}
+
+#kodak-caption-two {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+    color: var(--primary);
+}
+
+.logo-div {
+    background-color: transparent !important;
+    color: var(--gold) !important;
+    border: 2px solid var(--gold);
+    /* margin-bottom: 100px !important; */
+}
+
+.logo-div a {
+    color: var(--gold) !important;
+    transform: rotate(-45deg);
+    font-family: "Parisienne", cursive;
+    font-weight: 800;
+    font-size: 1.9em !important;
+    font-style: normal;
+}
+
+.menu-div:hover a {
+    transform: rotate(45deg);
+}
+
+
+#contact-modal-wrapper {
+    background-color: var(--primary);
+    color: var(--gold);
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#contact-modal-wrapper input,
+#contact-modal-wrapper textarea {
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--gold);
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--gold);
+}
+
+#contact-modal-wrapper textarea {
+    border: 2px solid var(--gold);
+    margin-top: 15px;
+    height: 200px;
+    resize: none;
+}
+
+#contact-modal-wrapper button {
+    font-size: 2em;
+    width: 61vw;
+    background-color: var(--primary);
+    outline: none;
+    border: 2px solid var(--gold);
+    color: var(--gold);
+    transition: all .4s;
+}
+
+#contact-modal-wrapper button:hover {
+    background-color: var(--gold);
+    color: var(--primary);
+}
+
+#contact-modal-wrapper ::placeholder {
+    color: var(--gold);
+}
+
+.half {
+    width: 30vw;
+}
+
+.full {
+    width: 60.5vw;
+}
+
+
+.ReactModal__Content {
+    padding: 0 !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: 0px 0px 42px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 42px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 42px -2px rgba(0, 0, 0, 0.75);
+}
+
+#contact-modal-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 25px;
+    margin-top: 0;
+    /* display: inline; */
+    display: none;
+}
+
+#contact-modal-close {
+    float: right;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 25px;
+    display: block;
+}
+
+#contact-modal-social-list {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
+}
+
+#contact-modal-social-list li {
+    display: inline;
+    margin: 0 6vw;
+}
+
+#contact-modal-social-list li a {
+    text-decoration: none;
+    color: var(--gold);
+    font-size: 2.9em;
+    opacity: .7;
+    transition: all .5s;
+}
+
+#contact-modal-social-list li a:hover {
+    opacity: 1;
+}
+
+#credit-link {
+    float: right;
+    text-decoration: none;
+    color: var(--gold);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #kodak-wrapper, #kodak-wrapper-two {
+        width: 200px;
+        height: 250px;
+    }
+    #kodak-caption, #kodak-caption-two {
+        font-size: 1em;
+    }
+    #home-nav-wrapper ul li div {
+        width: 75px;
+        height: 75px;
+        font-size: .6em;
+    }
+  }

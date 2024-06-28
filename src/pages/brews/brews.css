@@ -1,0 +1,100 @@
+#beer-list {
+    list-style-type: none;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+}
+
+#filters-wrapper {
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#drinks-filters-list button {
+    font-size: 1.2em;
+}
+
+#filters-wrapper ul, #filters-wrapper p {
+    display: inline;
+    font-size: 1.2em;
+}
+
+#beer-list div {
+    border: 2px solid var(--primary);
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 93vw;
+}
+
+
+.beer-name {
+    display: inline;
+    line-height: 40px;
+    margin-right: 15px;
+    color: var(--primary);
+    margin-left: 15px;
+}
+
+.na-pill {
+    margin-right: 8px;
+    background-color: var(--primary);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: .8em;
+    /* float: right; */
+    position: relative;
+    bottom: 1px;
+    display: inline;
+    background-color: #94A8FA;
+    z-index: -1;
+}
+
+.abv-pill {
+    margin-right: 8px;
+    color: var(--gold);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: .8em;
+    /* float: right; */
+    position: relative;
+    bottom: 1px;
+    display: inline;
+    background-color: var(--primary);
+    z-index: -1;
+}
+.tag-pill {
+    display: inline;
+    margin-right: 8px;
+    background-color: var(--primary);
+    color: var(--gold);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: .8em;
+    float: right;
+    position: relative;
+    bottom: 5px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+  }
