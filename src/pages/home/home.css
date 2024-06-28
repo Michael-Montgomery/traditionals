@@ -307,16 +307,61 @@
 
 
 @media only screen and (max-width: 600px) {
-    #kodak-wrapper, #kodak-wrapper-two {
+
+    #home-wrapper {
+        /* height: 99vh; */
+    }
+
+    #kodak-wrapper,
+    #kodak-wrapper-two {
         width: 200px;
         height: 250px;
     }
-    #kodak-caption, #kodak-caption-two {
+
+    #kodak-caption,
+    #kodak-caption-two {
         font-size: 1em;
     }
+
+    #home-nav-wrapper ul {
+        padding-left: 0;
+        width: 40px;
+    }
+
+    #home-nav-wrapper {
+        width: 35px !important;
+    }
+
     #home-nav-wrapper ul li div {
-        width: 75px;
-        height: 75px;
+        /* width: 35px; */
+        /* height: 75px; */
         font-size: .6em;
     }
-  }
+
+    #home-nav-wrapper ul li {
+        width: 35px;
+    }
+
+
+    #home-nav-wrapper ul li div a {
+        /* transform: rotate(90deg); */
+    }
+
+    .logo-div a {
+        /* transform: rotate(-90deg); */
+        font-size: 2.9em !important;
+    }
+
+    #kodak-wrapper,
+    #kodak-wrapper-two {
+        /* float: right; */
+        margin-left: 117px;
+    }
+
+    
+
+    #credit-link {
+        display: none;
+    }
+
+}

@@ -96,5 +96,36 @@
 
 
 @media only screen and (max-width: 600px) {
+
+    #beer-list {
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    #beer-list div {
+        width: 99vw;
+    }
+
+    #beer-list div p {
+        font-size: .8em;
+    }
+
+    #beer-name {
+        margin-left: 1px;
+        margin-right: 2px;
+    }
+
+    #filters-wrapper {
+        text-align: initial;
+    }
+
+    #drinks-filters-list button {
+        font-size: .6em;
+    }
     
+    #filters-wrapper ul, #filters-wrapper p {
+        display: inline;
+        font-size: 1em;
+    }
+
   }
