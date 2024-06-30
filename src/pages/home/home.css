@@ -310,10 +310,6 @@
 
 @media only screen and (max-width: 600px) {
 
-    #home-wrapper {
-        /* height: 99vh; */
-    }
-
     #kodak-wrapper,
     #kodak-wrapper-two {
         width: 200px;
@@ -344,11 +340,6 @@
         width: 35px;
     }
 
-
-    #home-nav-wrapper ul li div a {
-        /* transform: rotate(90deg); */
-    }
-
     .logo-div a {
         /* transform: rotate(-90deg); */
         font-size: 2.9em !important;
@@ -359,8 +350,6 @@
         /* float: right; */
         margin-left: 117px;
     }
-
-    
 
     #credit-link {
         display: none;
