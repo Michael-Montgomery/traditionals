@@ -30,6 +30,7 @@ header nav button {
     background-color: var(--primary);
     color: var(--gold);
     border: none;
+    display: none;
     /* float: right; */
 }
 
@@ -72,6 +73,10 @@ header nav a:hover:not(.active) {
 @media only screen and (max-width: 600px) {
     header nav a {
         display: none;
+    }
+
+    header nav button {
+        display: inline-block;
     }
 
     #responsive-menu ul{
