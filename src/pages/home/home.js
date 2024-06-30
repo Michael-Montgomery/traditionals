@@ -4,7 +4,7 @@ import './home.css';
 import Modal from 'react-modal';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faClose } from '@fortawesome/free-solid-svg-icons';
+import { faClose } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const customStyles = {
@@ -146,6 +146,7 @@ function Home() {
             >
 
                 <div id='contact-modal-wrapper'>
+                    <p id='contact-modal-close-btn' onClick={closeModal}><FontAwesomeIcon icon={faClose}></FontAwesomeIcon></p>
                     <form>
                         <p id='contact-modal-title'>We would love to hear from you!</p>
                         {/* <p id='contact-modal-close'><FontAwesomeIcon icon={faClose}></FontAwesomeIcon></p> */}

@@ -1,7 +1,8 @@
 header {
-    height: 70px;
+    /* height: 70px; */
     background-color: var(--primary);
     padding-left: 10px;
+    transition: all .4s;
     position: sticky;
     top: 0;
     margin-bottom: 20px;
@@ -22,6 +23,14 @@ header nav a {
     font-size: 1.3em;
     transition: all .5s;
     padding: 10px 0;
+}
+
+header nav button {
+    font-size: 1.5em;
+    background-color: var(--primary);
+    color: var(--gold);
+    border: none;
+    /* float: right; */
 }
 
 header nav a.active {
@@ -45,3 +54,40 @@ header nav a:hover:not(.active) {
     color: var(--gold);
     transform: rotate(-10deg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    header nav a {
+        display: none;
+    }
+
+    #responsive-menu ul{
+        text-align: center;
+        padding-left: 0;
+        list-style-type: none;
+    }
+
+    #responsive-menu ul li {
+        margin-bottom: 17px;
+    }
+
+    #responsive-menu ul li a {
+        text-decoration: none;
+        color: var(--gold);
+    }
+
+
+  }

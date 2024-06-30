@@ -2,16 +2,12 @@ import Header from '../../components/header/header';
 import './cuts.css';
 
 function Cuts() {
-    return(
+    return (
         <>
-        <Header></Header>
-        <div id='cuts-video-wrapper'>
-            <ul>
-                <li>
-                    <button></button>
-                </li>
-            </ul>
-        </div>
+            <Header></Header>
+            <div id='cuts-wrapper-one'>
+
+            </div>
 
         </>
     )

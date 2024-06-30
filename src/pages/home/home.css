@@ -250,12 +250,14 @@
     display: none;
 }
 
-#contact-modal-close {
-    float: right;
+#contact-modal-close-btn {
+    /* float: right; */
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 25px;
+    margin-left: 58vw;
     display: block;
+    transition: all .5s;
 }
 
 #contact-modal-social-list {

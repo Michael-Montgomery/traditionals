@@ -151,7 +151,15 @@ input[type='checkbox']:checked {
     
     #filters-wrapper ul, #filters-wrapper p {
         display: inline;
-        font-size: 1em;
+        font-size: .9em;
+    }
+
+    #filters-wrapper input {
+        font-size: .8em;
+    }
+
+    #filters-wrapper select {
+        font-size: .8em;
     }
 
   }
