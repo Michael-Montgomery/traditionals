@@ -30,7 +30,7 @@ function Brews() {
                         <select onChange={(e) => {
                             if (e.target.value === 'all') {
                                 if (naChecked) {
-                                    setDrinksCopy(drinksCopy.filter((val) => !val.containsAlcohol))
+                                    setDrinksCopy(drinks.filter((val) => !val.containsAlcohol))
                                 } else {
                                     setDrinksCopy(drinks)
                                 }
